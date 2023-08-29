@@ -652,6 +652,10 @@ video {
   margin-bottom: 8px;
 }
 
+.mt-\[5px\] {
+  margin-top: 5px;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -712,6 +716,18 @@ video {
   width: 44px;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
 .max-w-\[75\%\] {
   max-width: 75%;
 }
@@ -752,6 +768,10 @@ video {
   align-items: center;
 }
 
+.justify-normal {
+  justify-content: normal;
+}
+
 .justify-start {
   justify-content: flex-start;
 }
@@ -782,6 +802,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -858,6 +882,10 @@ video {
 
 .divide-transparent > :not([hidden]) ~ :not([hidden]) {
   border-color: transparent;
+}
+
+.overscroll-none {
+  overscroll-behavior: none;
 }
 
 .rounded-full {
@@ -1043,6 +1071,26 @@ video {
   padding-right: 23px;
 }
 
+.px-\[13px\] {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1093,6 +1141,10 @@ video {
 
 .text-\[22px\] {
   font-size: 22px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .font-bold {

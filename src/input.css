@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'twitter-chirp';
+    src: url("../dist/assets/fonts/twitterchirp.ttf");
+}
+body{
+font-family: "twitter-chirp";
+}
+
+.btn{
+    @apply text-[17px] p-[13px] px-[35px] bg-[#008cf0] hover:bg-[#1d9bf0] rounded-full;
+}
+.badge{
+    @apply bg-[#008cf0] text-white rounded-full text-[13px] px-[5px] py-[1px] text-xs font-semibold leading-none absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2;
+}

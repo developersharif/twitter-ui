@@ -568,6 +568,14 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -1280,6 +1288,18 @@ body{
 
 .hover\:bg-\[\#f7f6f91a\]:hover {
   background-color: #f7f6f91a;
+}
+
+.hover\:bg-\[\#f7f6f942\]:hover {
+  background-color: #f7f6f942;
+}
+
+.hover\:bg-\[\#f7f6f915\]:hover {
+  background-color: #f7f6f915;
+}
+
+.hover\:bg-\[\#f7f6f922\]:hover {
+  background-color: #f7f6f922;
 }
 
 .focus\:border-\[0px\]:focus {
